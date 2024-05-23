@@ -1,0 +1,38 @@
+.gray-bg{
+    background-color: rgb(247, 248, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-block:100px;
+}
+
+.printer-img img{
+    width: 300px;
+    height: auto;
+
+}
+.printer-content h3{
+    color: #0095f7 ;
+}
+.printer-content h1{
+    font-size: 3rem;
+    color: #3a4051;
+}
+.printer-content h1 .weight{
+    font-weight: 390;
+}
+.printer-content p{
+    font-size: 1.5rem;
+    width: 75%;
+}
+.printer-content button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: #0095f7;
+    color: white;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+}

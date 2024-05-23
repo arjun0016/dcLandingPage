@@ -11,10 +11,10 @@ const Header = () => {
         </div>
 
         <div className='printer-content'>
-            <h3>UNLIMITED DATA</h3>
-            <h1> <span className='weight'>Digital Innovation and the </span><br />
-            Future of Digital Marketing</h1>
-            <p>Boost your digital marketing campaigns and increase your conversion rates</p>
+            <h3>SPECIAL OFFERS</h3>
+            <h1> <span className='weight'>Save 75% On</span><br />
+            Total Monthly Cost</h1>
+            <p>Experience the pinnacle of cost-effective efficiency with our exclusive printer rental offer, which includes not only the printer but also toner, spare parts, consumables, and full maintenance services, all for the incredible price of 100 AED. Elevate your workplace dynamics with our printers' dependability and performance, guaranteeing that every document is generated with precision and clarity while staying within your budget.</p>
             <button>Learn more</button>
         </div>
     </div>

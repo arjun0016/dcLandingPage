@@ -12,6 +12,9 @@
     height: auto;
 
 }
+.printer-content{
+    width: 50%;
+}
 .printer-content h3{
     color: #0095f7 ;
 }
@@ -24,7 +27,6 @@
 }
 .printer-content p{
     font-size: 1.5rem;
-    width: 75%;
 }
 .printer-content button{
     width: 130px;

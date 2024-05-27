@@ -1,0 +1,27 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#F7F8FA;
+    
+}
+.contact_form{
+    display: flex;
+    padding: 10%;
+    gap: 50px;
+    width: 60%;
+}
+
+.contact_form p {
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input{
+
+}

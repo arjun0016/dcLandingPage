@@ -15,7 +15,7 @@ const Review = () => {
   }, []);
 
   return (
-    <div className='review'>
+    <div className='review '>
       <div className="elfsight-app-d23f6a6a-649b-4665-9347-de8488e5daad" data-elfsight-app-lazy></div>
     </div>
   );

@@ -1,3 +1,36 @@
-.review{
-    margin-block: 50px;
+ .review{
+    /* background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(49,72,86,1) 55%);    */
+    margin-block-start:50px;
 }
+/*
+.huflDf {
+    color: rgb(223 223 223)! important;
+}
+
+.btmxSM {
+    background-color: rgba(255, 255, 255, 0.235)!important;
+}
+.bxloCP {
+    color: rgb(255, 255, 255)!important;
+}
+.hSsRDZ {
+    color: rgb(255, 255, 255) !important;
+}
+.feKvIw {
+    color: rgba(255, 255, 255, 0.5)!important;
+}
+.cjTloD {
+    background-color: #ffffffc4 ! important;
+    color: rgb(76, 76, 76);
+}
+.hcGQjI .AISummaryContent__SummaryTextStyle-sc-1rdgk7n-1, .hcGQjI .AISummaryContent__SummaryListStyle-sc-1rdgk7n-5 {
+
+    color: rgb(255 255 255) !important;
+}
+.hcGQjI .AISummaryContent__StyledCheckmark-sc-1rdgk7n-4 {
+    fill: rgb(255 255 255)!important;
+}
+.ggPrWs {
+    color: rgb(255 255 255 / 74%)!important;
+} */

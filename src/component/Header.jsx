@@ -16,7 +16,7 @@ const Header = () => {
 
           <div className="bg-printer">
             <img className="printer-image img1" src={printer0} alt="" />
-            <img className="printer-image img2" src={printer1} alt="" />
+            <img className="printer-image img2" src={printer0} alt="" />
           </div>
           <h3 className="offer-price">Monthly expense <br /> Konica printer AED 100</h3>
           <h3 className="offer-price price2">Monthly expense <br /> Inkjet printer AED 250</h3>

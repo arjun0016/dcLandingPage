@@ -1,27 +1,68 @@
 .contact{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items:center;
     background-color:#F7F8FA;
+    padding: 5%;
     
 }
 .contact_form{
     display: flex;
-    padding: 10%;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid rgb(218, 216, 216);
+    background-color: white;
+    border-radius: 20px;
+    padding: 5%;
     gap: 50px;
     width: 60%;
 }
 
-.contact_form p {
-    
+.contact-content {
+    text-align: center;
 }
 
 form{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     
 }
+.contact-inp{
+    width: 100%;
+}
 
-.input{
+.contact-inp input{
+    border: solid 1px rgb(220, 218, 218);
+    border-radius: 5px;
+    padding: 15px;
+    width: 60%;
+}
+button{
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(107, 107, 241);
+    color: white;
+    font-weight: 600;
 
+}
+
+@media screen and (max-width:991px) {
+    .contact_form{
+        width: 90%;
+    }
+    .contact-inp input{
+        width: 80%;
+    }
+    button{
+        width: 50%;    
+    }
+
+    
 }

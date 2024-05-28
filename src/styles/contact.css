@@ -57,7 +57,7 @@ button{
     .contact_form{
         width: 90%;
     }
-    .contact-inp input{
+    .contact-inp input , textarea{
         width: 80%;
     }
     button{

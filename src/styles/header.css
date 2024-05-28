@@ -149,6 +149,7 @@
 }
 @media screen and (max-width:1100px) {
     .offer-gif{
+        
         top: 50px;
         right: -85%;
         z-index: -1;
@@ -213,16 +214,17 @@
     .printer-content p{
         font-size: 1rem;
     }
-
+/* 
     .printer-content img{
         width: 300px;
         height: 110px;
         object-fit: cover;
-    }
+    } */
 
     .logo{
-        width: 250px;
+        width: 200px;
         height: auto;
+        margin-inline-start: -170px;
     }
     .child3 {
        display: none;
@@ -243,11 +245,13 @@
         text-align: center;
     }
     .offer-gif{
-        top: -600px;
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        top: -700px;
         right: 2%;
-        z-index: 1000;
-        transform: rotate(45deg);
-        display: none;
+        z-index:1;
+        transform: rotate(20deg);
     }
 
 }

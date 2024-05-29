@@ -36,7 +36,7 @@ const Header = () => {
               Total Monthly Cost
             </h1>
           </div>
-          <OfferSlide/>
+          {/* <OfferSlide/> */}
           <h2 className="offer-details">
             Are you currently shelling out AED 250 for toners, you're aiming to
             slash that expense in half down to AED 100.

@@ -1,11 +1,12 @@
 import React from "react";
 import "../styles/header.css";
-import printer0 from "../assets/printers.png";
+import printer0 from "../assets/printers1.png";
 import printer1 from "../assets/printers2.png";
-import printer2 from "../assets/konica22.png";
-import printer3 from "../assets/hp.webp";
+import printer2 from "../assets/KUDI.png";
+import hp from "../assets/hp.avif";
 import dc from "../assets/dc.png";
 import gif from "../assets/specialoffer.gif";
+import OfferSlide from "./OfferSlide";
 
 const Header = () => {
   return (
@@ -16,9 +17,12 @@ const Header = () => {
 
           <div className="bg-printer">
             <img className="printer-image img1" src={printer0} alt="" />
-            <img className="printer-image img2" src={printer0} alt="" />
+            <img className="printer-image img2" src={printer2} alt="" />
           </div>
           <h3 className="offer-price">Monthly expense <br /> Konica printer AED 100</h3>
+
+            {/* <img className="printer-img" src={hp} alt="" /> */}
+
           <h3 className="offer-price price2">Monthly expense <br /> Inkjet printer AED 250</h3>
 
         </div>
@@ -32,6 +36,7 @@ const Header = () => {
               Total Monthly Cost
             </h1>
           </div>
+          <OfferSlide/>
           <h2 className="offer-details">
             Are you currently shelling out AED 250 for toners, you're aiming to
             slash that expense in half down to AED 100.
@@ -49,7 +54,7 @@ const Header = () => {
 
         <div className="printer-img  child3">
           <div className="bg-printer">
-            <img className="printer-img" src={printer3} alt="" />
+            <img className="printer-img" src={hp} alt="" />
           </div>
           <h3 className="offer-price">Monthly expense <br /> Inkjet printer AED 250</h3>
         </div>
